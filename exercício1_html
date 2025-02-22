@@ -1,0 +1,29 @@
+!<!DOCTYPE html>: <!DOCTYPE html>
+<html>
+<head>
+    <meta charset=“UTF-8”>
+</head>
+<body>
+    <h1>Bolo de casca de laranja</h1>
+    <p>Ingredientes (16) porções</p>
+    <ul>
+        <li>1 laranja</li>
+        <li>4 ovos</li>
+        <li>2 xícaras de chá de farinha de trigo</li>
+        <li>1 xícara de chá de óleo</li>
+        <li>2 xícaras de chá de açúcar</li>
+        <li>1 colher de sopa de fermento em pó</li>
+    </ul>
+
+    <p>Modo de preparo: 25 min</p>
+    <ol><li>Corte a laranja em 4 pedaços, retire a parte branca do miolo e as sementes que estiverem aparentes.</li>
+        <li>Bata no liquidificador as laranjas, o óleo, os ovos e o açúcar.</li>
+        <li>Em uma vasilha, misture a farinha de trigo e o fermento.</li>
+        <li>Adicione o conteúdo do liquidificador à mistura, mexendo com colher de pau (não bater em batedeira).</li>
+        <li>Leve ao forno médio por aproximadamente 25 minutos em forma untada com margarina e polvilhada com farinha de trigo.</li>
+    </ol>
+    <img src="OIP.jfif" alt="bolo de casca de laranja">
+    <iframe width="300" height="180" src="https://www.youtube.com/embed/0IGU4_U-MMQ?si=dMQFcOiZ5H4wtk6h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    visite a nossa página: <a href="https://www.tudogostoso.com.br/receita/6796-bolo-de-laranja-com-casca.html">link da pagina</a>
+</body>
+</html>
