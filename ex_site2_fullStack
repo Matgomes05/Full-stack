@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a href="index.html"> Voltar pagina </a>
+<h1 class="titulo_principal">Tabela de sessões de filmes:</h1>
+
+<ul>
+    <h4 id="sub_titulo2">Vingadores: Ultimato</h4>
+    <p>Sessões: 14:30, 17:45, 21:00</p>
+    <p>Duração: 3hr 2m</p>
+    <p>Classificação: 12 anos</p>
+
+    <h4 id="sub_titulo2">O Rei Leão (2019)</h4>
+    <p>Sessões: 13:00, 16:00, 19:00</p>
+    <p>Duração: 1h 58m</p>
+    <p>Classificação: Livre</p>
+
+    <h4 id="sub_titulo2">Coringa</h4>
+    <p>Sessões: 15:00, 18:30, 21:15</p>
+    <p>Duração: 2h 2m</p>
+    <p>Classificação: 16 anos</p>
+</ul>
+</body>
+</html>
