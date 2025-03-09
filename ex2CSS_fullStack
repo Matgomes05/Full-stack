@@ -1,0 +1,52 @@
+body{
+    background-color: #fdfdfd;
+    color: hsl(0, 0%, 0%);
+}
+
+.titulo_principal {
+    background-color: hwb(244 0% 0%);
+    color: #ffffff;
+    text-align: center;
+    font-size: 36px;
+}
+
+.titulo_principal2 {
+    background-color: hwb(247 0% 0%);
+    color: rgb(253, 253, 253);
+    padding-left: 36px;
+    font-size: 36px;
+}
+
+#sub_titulo {
+    color: hsl(60, 20%, 99%);
+    padding-left: 36px;
+    font-size: 26px;
+}
+
+#sub_titulo2 {
+    background-color: blue;
+    color: #fefefe;
+    margin-right: 1100px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.filmes {
+    background-color: blue;
+    color: rgb(253, 253, 253);
+    margin-right: 1100px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.trailers a:hover {
+    color: #360348;
+    font-size: 15px;
+}
+
+.sessoes_test a:hover {
+    color: #360348;
+    padding-left: 36px;
+    font-size: 20px;
+}
