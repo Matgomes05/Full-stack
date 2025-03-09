@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=“UTF-8”>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="titulo_principal">CineMundo</h1>
+
+    <h2 id="sub_titulo">Programação:</h2>
+    <ul>
+        <li>
+            <h4 class="filmes">Vingadores: ultimato</h4>
+            <p>Gênero: Ação, Aventura, Ficção científica</p>
+            Sinopse: Os heróis mais poderosos da Terra se unem para enfrentar Thanos, em uma batalha épica para reverter o impacto devastador que o vilão causou no universo. O último capítulo de uma saga que mudou o cinema.
+        </li>
+
+<img src="Avengers_Endgame.jpg" alt="" width="200" height="300">  
+<p class="trailers">Trailer: <a href="https://www.youtube.com/watch?v=PgrmbRID0eY">Vingadores: ultimato</a></p>    
+
+        <li>
+            <h4 class="filmes">O Rei Leão (2019)</h4>
+            <p>Gênero: Animação, Aventura, Família</p>
+            Sinopse: A clássica história de Simba, o leão jovem que deve assumir seu lugar como rei, depois da morte de seu pai, Mufasa. A versão live-action (com CGI) traz um novo olhar sobre o amado clássico da Disney.
+        </li>
+
+<img src="The_Lion_King_(2019).jpg" alt=""  width="200" height="300">  
+<p class="trailers">Trailer: <a href="https://www.youtube.com/watch?v=J57HnR6FPW0">Rei leão (2019)</a></p> 
+
+        <li>
+            <h4 class="filmes">Coringa</h4>
+            <p>Gênero: Drama, Crime, Suspense</p>
+            Sinopse: A história de origem do infame vilão, Arthur Fleck, um comediante fracassado que se transforma no temido Coringa. O filme explora temas de saúde mental e desigualdade social, com uma atuação inesquecível de Joaquin Phoenix.
+        </li>
+
+<img src="Joker_(2019).jpg" alt="" width="200" height="300"> 
+<p class="trailers">Trailer: <a href="https://www.youtube.com/watch?v=621pfj0EfIc">Coringa</a></p> 
+        
+    </ul>
+
+<h1 class="titulo_principal2">Sessões Disponíveis:</h1>
+<a href="projects.html" class="sessoes_test"> Confira mais sobre as sessões disponíveis </a>
+</body>
+
+</html>
