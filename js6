@@ -1,0 +1,57 @@
+let canvas = document.getElementById('canvas');
+let ctx = canvas.getContext('2d');
+
+let bola = {
+    x: 0,
+    y: 80,
+    raio: 40,
+    img: new Image(),
+    desenha: function(){
+        this.img.src = 'bob.jfif';
+        ctx.beginPath();
+        ctx.drawImage(this.img, this.x - this.raio, this.y - this.raio, 2 * this.raio, 2 * this.raio);
+        ctx.closePath();
+    }
+}
+
+function animacao(){
+    ctx.clearRect(0,0,400,400)
+    bola.desenha();
+    requestAnimationFrame(animacao)
+}
+animacao();
+document.addEventListener('mousemove',function(evento){
+    let rect = canvas.getBoundingClientRect();
+    let x_mouse = evento.clientX - rect.left;
+    let y_mouse = evento.clientY - rect.top;
+    console.log(x_mouse,y_mouse);
+    bola.x = x_mouse;
+    bola.y = y_mouse;
+})
+
+document.addEventListener('mousemove', function(evento) {
+    let rect = canvas.getBoundingClientRect();
+    let x_mouse = evento.clientX - rect.left;
+    let y_mouse = evento.clientY - rect.top;
+
+    let limiteEsquerdo = bola.raio;
+    let limiteDireito = canvas.width - bola.raio;
+    let limiteSuperior = bola.raio;
+    let limiteInferior = canvas.height - bola.raio;
+
+    if (x_mouse - bola.raio < limiteEsquerdo) {
+        bola.x = limiteEsquerdo;
+    } else if (x_mouse + bola.raio > limiteDireito) {
+        bola.x = limiteDireito;
+    } else {
+        bola.x = x_mouse;
+    }
+
+    if (y_mouse - bola.raio < limiteSuperior) {
+        bola.y = limiteSuperior;
+    } else if (y_mouse + bola.raio > limiteInferior) {
+        bola.y = limiteInferior;
+    } else {
+        bola.y = y_mouse;
+    }
+});
